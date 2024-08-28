@@ -1,0 +1,92 @@
+.container {
+    background-color: blue ;
+    border-radius: 16px;
+    text-align: center;
+    color:white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    gap: 100px;
+}
+.container>div:first-child>p {
+    color: white;
+}
+.child {
+    background-color: white;
+    width: 200px;
+    border-radius: 12px;
+    height: 300px;
+    text-align: center;
+}
+.child>h1,button,p {
+    color: blue;
+    border: none;
+    display: inline;
+}
+.child>h3 {
+    color: orange;
+}
+.child>ul {
+    color: black;
+    list-style-type: none;
+    font-size: 12px;
+    margin-right: 50px;
+}
+.two>h5 {
+    background-color: pink;
+    padding: 5px;
+    color: blue;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.two>button {
+    background-color: blue;
+    color: white;
+    padding: 5px 20px;
+}
+.two {
+    height: 350px;
+}
+.container>div:nth-child(2) {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+
+
+
+.outer {
+    border: 10px solid gray;
+    border-radius: 16px;
+    margin-top: 100px;
+    padding: 20px;
+}
+.outer>div:first-child>h3 {
+    color: blue;
+
+}
+.profiles {
+    text-align: center;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap; 
+    justify-content: space-between;  
+}
+.profiles div {
+    width: 150px;
+}
+.outer>div:last-child div>p {
+    color: black;
+    font-size: larger;
+}
+img {
+    border-radius: 50%;
+    float: left;
+}
